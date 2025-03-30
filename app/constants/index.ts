@@ -166,10 +166,13 @@ const projects :{
 				name: "Swing",
 				color: "orange-text-gradient",
 			},
+			{
+				name: "OOP",
+				color: "blue-text-gradient",
+			},
 		],
 		image: "/projectimg/Chess.webp",
-		source_code_link: "https://github.com/GN-SR/JavaChessGame",
-		platform: "Web",
+		platform: "Wordpress",
 		deploy_link: "https://github.com/GN-SR/JavaChessGame",
 	},
 	{
