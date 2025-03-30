@@ -34,11 +34,19 @@ const services = [
 
 const technologies = [
 	{
-		name: "HTML 5",
+		name: "Java",
+		icon: "/tech/java.webp",
+	},
+	{
+		name: "Python",
+		icon: "/tech/python.webp",
+	},
+	{
+		name: "HTML",
 		icon: "/tech/html.webp",
 	},
 	{
-		name: "CSS 3",
+		name: "CSS",
 		icon: "/tech/css.webp",
 	},
 	{
@@ -46,40 +54,32 @@ const technologies = [
 		icon: "/tech/javascript.webp",
 	},
 	{
-		name: "TypeScript",
-		icon: "/tech/typescript.webp",
+		name: "SQL",
+		icon: "/tech/sql.webp",
 	},
 	{
-		name: "React JS",
+		name: "React",
 		icon: "/tech/reactjs.webp",
 	},
 	{
-		name: "Next.JS",
+		name: "Next JS",
 		icon: "/tech/nextjs.svg",
 	},
 	{
-		name: "Redux Toolkit",
-		icon: "/tech/redux.webp",
-	},
-	{
-		name: "Tailwind CSS",
+		name: "Tailwind",
 		icon: "/tech/tailwind.webp",
-	},
-	{
-		name: "Three JS",
-		icon: "/tech/threejs.webp",
 	},
 	{
 		name: "git",
 		icon: "/tech/git.webp",
 	},
 	{
-		name: "figma",
-		icon: "/tech/figma.webp",
+		name: "flask",
+		icon: "/tech/flask.webp",
 	},
 	{
-		name: "wordpress",
-		icon: "/tech/wordpress.webp",
+		name: "docker",
+		icon: "/tech/docker.webp",
 	},
 	{
 		name: "bootstrap",
@@ -136,27 +136,27 @@ const projects :{
 	platform: "Netlify" | "Vercel" | "Figma" | "Wordpress" | "Web"
 }[] = [
 	{
-		name: "A.V.M Auto Portfolio",
+		name: "Iris Virtual Assistant",
 		description:
-			"Designed and developed a Java Chess Game",
+			"A voice-activated virtual assistant built with Python, capable of recognizing commands, responding via text-to-speech, and automating tasks. Utilizes SpeechRecognition and pyttsx3 for seamless interaction.",
 		tags: [
 			{
-				name: "wordpress",
+				name: "Python",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "google-translate",
+				name: "Java Script",
 				color: "green-text-gradient",
 			},
 		],
-		image: "/projectimg/avm.webp",
+		image: "/projectimg/Iris.webp",
 		platform: "Wordpress",
-		deploy_link: "https://avmauto.in/",
+		deploy_link: "https://github.com/GN-SR/Iris",
 	},
 	{
 		name: "Java Chess Game",
 		description:
-			"Designed and developed a Java Chess Game.",
+			"A functional chess game built in Java with core mechanics like piece movement and checkmate detection. Designed using Java Swing for an interactive and smooth user experience.",
 		tags: [
 			{
 				name: "Java",
@@ -176,100 +176,96 @@ const projects :{
 		deploy_link: "https://github.com/GN-SR/JavaChessGame",
 	},
 	{
-		name: "HooBank",
+		name: "Flappy Bird Game",
 		description:
-			"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
+			"A Java-based Flappy Bird game where players navigate a bird through pipes to achieve the highest score. Showcases real-time rendering, user input handling, and collision detection.",
 		tags: [
 			{
-				name: "next",
+				name: "Java",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "Game-development",
 				color: "blue-text-gradient",
 			},
 		],
-		image: "/projectimg/hoobank.webp",
-		source_code_link: "https://github.com/omunite215/hoobank",
-		platform: "Vercel",
-		deploy_link: "https://hoobankbyom.netlify.app/",
+		image: "/projectimg/Flappybird.webp",
+		platform: "Wordpress",
+		deploy_link: "https://github.com/GN-SR/FlappyBird",
 	},
 	{
-		name: "MERN Dashboard",
+		name: "Computer Vision",
 		description:
-			" Designed and developed a visually appealing and user-friendly Data Analytics Dashboard using MERN",
+			"A project utilizing OpenCV and deep learning for image processing, object detection, and real-time analysis. Designed to solve automation challenges and enhance visual data interpretation.",
 		tags: [
 			{
-				name: "react",
+				name: "Python",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "materialui",
+				name: "SQL",
 				color: "orange-text-gradient",
 			},
 			{
-				name: "MongoDB",
+				name: "Open-CV",
 				color: "green-text-gradient",
 			},
 			{
-				name: "Express",
+				name: "HTML",
 				color: "pink-text-gradient",
 			},
 		],
-		image: "/projectimg/mern.png",
-		source_code_link: "https://github.com/omunite215/Project_MERN-Dashboard",
-		platform: "Web",
-		deploy_link: "https://admin-frontend-r705.onrender.com/",
+		image: "/projectimg/ComputerVision.webp",
+		platform: "Wordpress",
+		deploy_link: "https://github.com/Dhanush0000/Computer_vision",
 	},
 	{
-		name: "Metaverse Web 3.0",
+		name: "Weather App",
 		description:
-			"A Modern UI/UX Landing Page using Framer Motion and TailwindCSS with a feel and looks of Web 3.0",
+			"A Java-based application that fetches real-time weather data using the OpenWeatherMap API. Features a Swing-based GUI for an interactive and user-friendly experience.",
 		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "framer-motion",
-				color: "orange-text-gradient",
-			},
-		],
-		image: "/projectimg/metaverse.png",
-		source_code_link: "https://github.com/omunite215/Project_Metaverse",
-		platform: "Vercel",
-		deploy_link: "https://project-metaverse-beta.vercel.app/",
-	},
-	{
-		name: "Issue Tracker",
-		description:
-			"A Next.JS Full Stack Issue Tracker made using Next.Js, ShadCN UI, Prisma, mySQL with latest features like Next.JS Server Components, and Serverless features.",
-		tags: [
-			{
-				name: "next",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "shadCN",
+				name: "Java",
 				color: "orange-text-gradient",
 			},
 			{
-				name: "mySQL",
+				name: "API",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "GUI",
 				color: "green-text-gradient",
 			},
 		],
-		image: "/projectimg/issuetracker.png",
-		source_code_link: "https://github.com/omunite215/Project_Issue-Tracker",
-		platform: "Vercel",
-		deploy_link: "https://project-issue-tracker.vercel.app/",
+		image: "/projectimg/weather.webp",
+		platform: "Wordpress",
+		deploy_link: "https://github.com/GN-SR/WeatherApp",
+	},
+	{
+		name: "Note Pad",
+		description:
+			"Text editor built with Java, with essential functions like opening, editing, saving, and formatting text. Designed with a simple and user-friendly interface. Demonstrates GUI development and file handling.",
+		tags: [
+			{
+				name: "Java",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Swing",
+				color: "green-text-gradient",
+			},
+			{
+				name: "GUI",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "File-handling",
+				color: "yellow-text-gradient",
+			},
+		],
+		image: "/projectimg/Notepad.webp",
+		platform: "Wordpress",
+		deploy_link: "https://github.com/GN-SR/Java-Notepad",
 	},
 ];
 
