@@ -45,7 +45,7 @@ const Navbar = () => {
 						<Image
 							src="/logo.png"
 							width={80}
-							height={80}
+							height={700}
 							alt="logo"
 							priority
 							className="object-contain"
