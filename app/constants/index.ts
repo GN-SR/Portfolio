@@ -16,74 +16,74 @@ export const navLinks = [
 const services = [
 	{
 		title: "Java Developer",
-		icon: "/java.webp",
+		icon: "/Portfolio/java.webp",
 	},
 	{
 		title: "Full Stack Web Developer",
-		icon: "/web.webp",
+		icon: "/Portfolio/web.webp",
 	},
 	{
 		title: "Software Engineer",
-		icon: "/creator.webp",
+		icon: "/Portfolio/creator.webp",
 	},
 	{
 		title: "Cybersecurity Enthusiast",
-		icon: "/cyber.webp",
+		icon: "/Portfolio/cyber.webp",
 	},
 ];
 
 const technologies = [
 	{
 		name: "Java",
-		icon: "/tech/java.webp",
+		icon: "/Portfolio/tech/java.webp",
 	},
 	{
 		name: "Python",
-		icon: "/tech/python.webp",
+		icon: "/Portfolio/tech/python.webp",
 	},
 	{
 		name: "HTML",
-		icon: "/tech/html.webp",
+		icon: "/Portfolio/tech/html.webp",
 	},
 	{
 		name: "CSS",
-		icon: "/tech/css.webp",
+		icon: "/Portfolio/tech/css.webp",
 	},
 	{
 		name: "JavaScript",
-		icon: "/tech/javascript.webp",
+		icon: "/Portfolio/tech/javascript.webp",
 	},
 	{
 		name: "SQL",
-		icon: "/tech/sql.webp",
+		icon: "/Portfolio/tech/sql.webp",
 	},
 	{
 		name: "React",
-		icon: "/tech/reactjs.webp",
+		icon: "/Portfolio/tech/reactjs.webp",
 	},
 	{
 		name: "Next JS",
-		icon: "/tech/nextjs.svg",
+		icon: "/Portfolio/tech/nextjs.svg",
 	},
 	{
 		name: "Tailwind",
-		icon: "/tech/tailwind.webp",
+		icon: "/Portfolio/tech/tailwind.webp",
 	},
 	{
 		name: "git",
-		icon: "/tech/git.webp",
+		icon: "/Portfolio/tech/git.webp",
 	},
 	{
 		name: "flask",
-		icon: "/tech/flask.webp",
+		icon: "/Portfolio/tech/flask.webp",
 	},
 	{
 		name: "docker",
-		icon: "/tech/docker.webp",
+		icon: "/Portfolio/tech/docker.webp",
 	},
 	{
 		name: "android",
-		icon: "/tech/android.webp",
+		icon: "/Portfolio/tech/android.webp",
 	},
 ];
 
@@ -91,7 +91,7 @@ const experiences = [
 	{
 		title: "Full Stack Developer Intern",
 		company_name: "Basal Analytics",
-		icon: "/company/Basal.webp",
+		icon: "/Portfolio/company/Basal.webp",
 		iconBg: "#FFFFFF",
 		date: "Sep 2024 -  Dec 2024",
 		points: [
@@ -109,7 +109,7 @@ const testimonials = [
 		testimonial:
 			"Check out my LinkedIn profile for more information about my experience and skills.",
 		name: "Guna Swaroop",
-		image: "/socialmedia/linkedin.svg",
+		image: "/Portfolio/socialmedia/linkedin.svg",
 		link: "https://www.linkedin.com/in/guna-swaroop/",
 	},
 	{
@@ -117,7 +117,7 @@ const testimonials = [
 		testimonial:
 			"Also do check out my Github Profile where I have shared all my Projects.",
 		name: "Guna Swaroop ",
-		image: "/tech/github.webp",
+		image: "/Portfolio/tech/github.webp",
 		link: "https://github.com/GN-SR",
 	},
 ];
@@ -149,7 +149,7 @@ const projects :{
 				color: "green-text-gradient",
 			},
 		],
-		image: "/projectimg/Iris.webp",
+		image: "/Portfolio/projectimg/Iris.webp",
 		platform: "Wordpress",
 		deploy_link: "https://github.com/GN-SR/Iris",
 	},
@@ -171,7 +171,7 @@ const projects :{
 				color: "blue-text-gradient",
 			},
 		],
-		image: "/projectimg/Chess.webp",
+		image: "/Portfolio/projectimg/Chess.webp",
 		platform: "Wordpress",
 		deploy_link: "https://github.com/GN-SR/JavaChessGame",
 	},
@@ -189,7 +189,7 @@ const projects :{
 				color: "blue-text-gradient",
 			},
 		],
-		image: "/projectimg/Flappybird.webp",
+		image: "/Portfolio/projectimg/Flappybird.webp",
 		platform: "Wordpress",
 		deploy_link: "https://github.com/GN-SR/FlappyBird",
 	},
@@ -215,7 +215,7 @@ const projects :{
 				color: "pink-text-gradient",
 			},
 		],
-		image: "/projectimg/ComputerVision.webp",
+		image: "/Portfolio/projectimg/ComputerVision.webp",
 		platform: "Wordpress",
 		deploy_link: "https://github.com/Dhanush0000/Computer_vision",
 	},
@@ -237,7 +237,7 @@ const projects :{
 				color: "green-text-gradient",
 			},
 		],
-		image: "/projectimg/weather.webp",
+		image: "/Portfolio/projectimg/weather.webp",
 		platform: "Wordpress",
 		deploy_link: "https://github.com/GN-SR/WeatherApp",
 	},
@@ -263,7 +263,7 @@ const projects :{
 				color: "yellow-text-gradient",
 			},
 		],
-		image: "/projectimg/Notepad.webp",
+		image: "/Portfolio/projectimg/Notepad.webp",
 		platform: "Wordpress",
 		deploy_link: "https://github.com/GN-SR/Java-Notepad",
 	},
