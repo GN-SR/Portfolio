@@ -2,11 +2,11 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  output: "export",
-  basePath: "/Portfolio", // Change to your GitHub repo name
-  assetPrefix: isProd ? "/Portfolio/" : "",
+  output: "export",  // Export static site
+  basePath: isProd ? "/Portfolio" : "",  // Ensure paths work
+  assetPrefix: isProd ? "/Portfolio/" : "", // Fix static assets like images
   images: {
-    unoptimized: true, // Needed for static export
+    unoptimized: true, // Fix for GitHub Pages
   },
 };
 
