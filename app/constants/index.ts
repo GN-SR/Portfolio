@@ -82,8 +82,8 @@ const technologies = [
 		icon: "/tech/docker.webp",
 	},
 	{
-		name: "bootstrap",
-		icon: "/tech/bootstrap.webp",
+		name: "android",
+		icon: "/tech/android.webp",
 	},
 ];
 
