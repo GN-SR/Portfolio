@@ -138,7 +138,7 @@ const projects :{
 	{
 		name: "A.V.M Auto Portfolio",
 		description:
-			"A Designed and developed a visually appealing and user-friendly portfolio website using WordPress.",
+			"Designed and developed a Java Chess Game",
 		tags: [
 			{
 				name: "wordpress",
@@ -154,27 +154,23 @@ const projects :{
 		deploy_link: "https://avmauto.in/",
 	},
 	{
-		name: "Sparkbright Engineering Portfolio",
+		name: "Java Chess Game",
 		description:
-			" Designed and developed a visually appealing and user-friendly portfolio website using Next.JS.",
+			"Designed and developed a Java Chess Game.",
 		tags: [
 			{
-				name: "next",
+				name: "Java",
 				color: "red-text-gradient",
 			},
 			{
-				name: "Next UI",
+				name: "Swing",
 				color: "orange-text-gradient",
 			},
-			{
-				name: "tailwind",
-				color: "blue-text-gradient",
-			},
 		],
-		image: "/projectimg/sparkbright.png",
-		source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
+		image: "/projectimg/Chess.webp",
+		source_code_link: "https://github.com/GN-SR/JavaChessGame",
 		platform: "Web",
-		deploy_link: "https://sparkbright.in/",
+		deploy_link: "https://github.com/GN-SR/JavaChessGame",
 	},
 	{
 		name: "HooBank",
