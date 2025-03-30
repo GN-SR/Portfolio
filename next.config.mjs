@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   output: "export",
   basePath: "/Portfolio",
-  assetPrefix: isProd ? "/Porrtfolio/" : "",
+  assetPrefix: isProd ? "/Portfolio/" : "",
 };
 
 export default nextConfig;
