@@ -43,7 +43,7 @@ const Navbar = () => {
 				>
 					<Link href="https://github.com/GN-SR">
 						<Image
-							src="/logo.png"
+							src="./logo.png"
 							width={80}
 							height={700}
 							alt="logo"
@@ -76,7 +76,7 @@ const Navbar = () => {
 
 				<div className="sm:hidden flex flex-1 justify-end items-center">
 					<Image
-						src={toggle ? "/close.svg" : "/menu.svg"}
+						src={toggle ? "./close.svg" : "./menu.svg"}
 						width={28}
 						height={28}
 						alt="menu"
