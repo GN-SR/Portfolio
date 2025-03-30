@@ -8,7 +8,7 @@ export const navLinks = [
 		title: "Work",
 	},
 	{
-		id: "contact",
+		id:"contact",
 		title: "Contact",
 	},
 ];
