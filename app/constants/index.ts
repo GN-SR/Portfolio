@@ -15,20 +15,20 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "UI/UX Designer",
-		icon: "/backend.webp",
+		title: "Java Developer",
+		icon: "/java.webp",
 	},
 	{
 		title: "Full Stack Web Developer",
 		icon: "/web.webp",
 	},
 	{
-		title: "App Developer",
-		icon: "/mobile.webp",
-	},
-	{
 		title: "Software Engineer",
 		icon: "/creator.webp",
+	},
+	{
+		title: "Cybersecurity Enthusiast",
+		icon: "/cyber.webp",
 	},
 ];
 
